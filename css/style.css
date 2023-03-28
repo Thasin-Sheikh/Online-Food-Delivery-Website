@@ -1,0 +1,580 @@
+.body
+{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.hheader
+{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    background: #FFFFFF;
+    top: 0;
+}
+.db img
+{
+    background: red;
+    width:35px;
+    height:35px;
+    float: left;
+    margin: 0px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.hheader .service-name .fds h2
+{
+    font-size:20px;
+    margin-top:0px;
+    padding: 10px;
+    font-weight: 300;
+    color:#D70F64;
+    float: left;
+}
+.left-area
+{
+    width: 80%;
+    float:  left;
+}
+.right-area
+{
+    width: 20%;
+    float:  left;
+}
+.hheader .service-name .login h2
+{
+    float: left;
+}
+.right-area button 
+{
+    background:#D70F64;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-weight: 700;
+}
+.right-area .man a
+{
+    float:  left;
+    margin-right:3px;
+}
+.right-area .login a
+{
+    
+    font-size: 12px;
+    padding: 5px;
+    letter-spacing:1px;
+    font-weight:700;
+    margin-top: 3px;
+    text-decoration:none;
+    color: #333;
+    float: left;
+}
+.hheader .right-area .signup a
+{
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #333;
+    float: left;
+    
+}
+.right-area .cart img
+{
+   
+    padding: 3px;
+    width: 27px;
+    margin-top: -1px;
+}
+.right-area .cart img:hover
+{
+    cursor: pointer;
+    
+}
+
+.delivery h3
+{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+.middle-area
+{
+    margin: auto;
+    overflow: hidden;
+   
+}
+.middle-area .delivery
+{
+    width: 80%;
+    margin: auto;
+    
+}
+.middle-area .delivery::after
+{
+    content: '';
+    clear: both;
+    display: block;
+    
+}
+.middle-area .hfood img
+{
+    width: 20%;
+}
+.delivery h3
+{
+    margin-left: 0;
+    margin-top: 170px;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 400px;
+}
+.middle-area .hfood img
+{
+    float: right;
+}
+.middle-area .delivery input[type="text"]
+{
+    float: left;
+    margin-top: 250px;
+    margin-left: -399px;
+    width: 470px;
+    height: 50px;
+    font-size: 15px;
+    padding: 6px;
+    margin-right: 13px;
+}
+.middle-area .delivery  h6
+{
+    float: left;
+    margin-top: 276px;
+    font-size: 18px;
+}
+.btn1 input 
+{
+    background: #D70F64;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600px;
+    min-width: 115px;
+    float: left;
+    padding: 23px 16px;
+    text-align: center;
+    margin-top: 250px;
+    margin-right: 5px;
+    
+}
+.btn2 input
+{
+    background: #D70F64;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600px;
+    min-width: 115px;
+    float: left;
+    padding: 23px 16px;
+    text-align: center;
+    margin-top: 250px;margin-left: 5px;
+    
+}
+
+.btn1 input,.btn2 input:hover
+{
+    cursor: pointer;
+}
+.hfood img
+{
+    margin-top: -250px;
+    width: 400px;
+    
+}
+.lower
+{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+.partner.upper.h2
+{
+    position: relative;
+}
+.part
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1425px;
+    color: #F5F5F5;
+    font-size: 142px;
+    height: 80px
+    
+}
+.part .rest
+{
+  
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 2.6;
+    font-size: 1.6rem;
+    margin-left: -76px;
+    padding: 40px;
+}
+.lower .left
+{
+    width: 40%;
+    height: 450px;
+    overflow: hidden;
+    margin-left: 100px;
+    float: left;
+    border: 1px solid black;
+    background: #C8C8C8;
+    position: relative;
+}
+.lower .left h3
+{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+.lower .left .para
+{
+    width: 100%;
+    font-size: 25px;
+}
+.lower .right
+{
+    width: 50%;
+    height:460px;
+    float: left;
+    margin-left: 20px;
+    
+}
+.lower .right img
+{
+    width: 120%;
+    overflow: hidden;
+    height: 450px;
+    
+}
+.lower .left .btn3 a
+{
+    text-decoration: none;
+    background: #D70F64;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600px;
+    min-width: 115px;
+    float: left;
+    padding: 20px 100px;
+    text-align: center;
+    margin-left: 170px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+    
+}
+.lower .left .btn3 input:hover
+{
+    cursor: pointer;
+}
+.cities
+{
+    width: 100%;
+    margin-top: 100px;
+}
+.cities ul 
+{
+    list-style-type: none;
+}
+.partner
+{
+    overflow: hidden;
+}
+.cities
+{
+    height: 1400px;
+    
+}
+.cities h3
+{
+    margin-left: 100px;
+    margin-top: 200px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+.cities .row1 
+{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    padding: 30px;
+}
+.cities .row2 
+{
+    width: 1000px;
+    height: 200px;
+    margin:auto;
+    margin-top:0px;
+}
+.cities .row3
+{
+    width: 1000px;
+    height: 200px;
+    margin:auto;
+    padding: 30px;
+}
+.cities .row4
+{
+    width: 1000px;
+    height: 200px;
+    margin:auto;
+}
+.cities .row5
+{
+    width: 1000px;
+    height: 200px;
+    margin:auto;
+    padding: 30px;
+}
+
+.cities ul li img
+{
+    width: 200px;
+    height: 200px;
+}
+.pic1
+{
+    width: 200px;
+    height:200px;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+.pic1 a img
+{
+    width: 200px;
+    height: 100px;
+}
+.cities ul li .name a 
+{
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1em;
+    color: #fff;
+}
+.pic2
+{
+    width: 200px;
+    height:200px;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+.pic2 a img
+{
+    width: 200px;
+    height: 100px;
+}
+.pic3
+{
+    width: 200px;
+    height:200px;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+.pic3 a img
+{
+    width: 200px;
+    height: 100px;
+}
+.pic4
+{
+    width: 200px;
+    height:200px;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+.pic4 a img
+{
+    width: 200px;
+    height: 100px;
+}
+.download
+{
+    width:100%;
+    height: 450px;
+    position: relative;
+}
+.download span
+{
+    margin-left: 280px;
+    color: #333;
+    font-weight: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+.download .app
+{
+    width: 100%;
+    height: 300px;
+    background:#D70F64;
+    margin-top: 30px;
+    position: relative;
+}
+.download .app .right
+{
+    width: 50%;
+    position: absolute;
+}
+.download .app .left
+{
+    width: 50%;
+    position: absolute;
+}
+.download .app .right h3
+{
+    margin-left: 280px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+.download .app .right p
+{
+    margin-left: 280px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+}
+.download .store1 a
+{
+    margin-left: 280px;
+    float: left;
+    padding: 5px;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+.download .store2 a
+{
+    float: left;
+    padding: 9px;
+    border: 1px solid white;
+}
+.download .left img
+{
+    width: 400px;
+    height:400px;
+    float:left;
+    margin-left: 1000px;
+    position: absolute;
+}
+.office
+{
+    width: 100%;
+    height: 600px;
+}
+.office h3
+{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+.office_eat
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.office_eat img
+{
+    width: 100%;
+    height: 400px;
+}
+.business
+{
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    bottom: 0px;
+    left: 120px;
+    position: absolute;
+}
+.business p
+{
+    font-size: 20px;
+}
+.business .btn30 a
+{
+    text-decoration: none;
+    background: #D70F64;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600px;
+    min-width: 115px;
+    float: left;
+    padding: 20px 100px;
+    text-align: center;
+    margin-left: 170px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;  
+}
+.office_eat span
+{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    margin-left: 30px;
+}
+.footer
+{
+   width: 80%;
+   margin: auto;
+    
+}
+.footer p
+{
+    font-family: "Open Sans",Arial,sans-serif;
+}
+.copy
+{
+    font-family: "Open Sans",Arial,sans-serif;
+    width: 30%;
+    margin: auto;
+}

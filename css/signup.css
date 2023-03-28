@@ -1,0 +1,29 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.signup
+{
+   background-color: #808080; 
+    width:34%;
+    margin: 300px auto;
+}
+.signup h1
+{
+    margin-left: 140px
+}
+.signup input[type="text"],.signup input[type="password"],.signup input[type="submit"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin: 4px;
+    align-items: center;
+    width: 98%;
+    box-sizing: border-box;
+}
+.signup input[type="submit"]
+{
+    font-size: 15px;
+    background: #D70F64;
+}

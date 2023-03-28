@@ -1,0 +1,129 @@
+.body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    height: 600px
+        width:auto;
+   
+}
+header h3
+{
+    margin-top: 0px;
+    margin-left: 600px;
+    
+}
+.menu1
+{
+    margin-left: 100px;
+}
+.totalarea
+{
+    height: 700px;
+    width: auto;
+}
+.menu1 .leftarea h6
+{
+    margin-top: 0px;
+    color: #8c7373;
+    font-size: 12px;
+}
+.menu1 .leftarea
+{
+    height: 700px;
+    width: 30%;
+    float: left;
+    margin: auto;
+    
+}
+
+
+.menu1 .rightarea
+{
+    height: 700px;
+    width: 30%;
+    float: right;
+    margin: auto;
+       
+}
+.menu1 .leftarea .btn1 input
+{
+    padding: 30px;
+    width: 450px;
+    font-size: 25px;
+    box-sizing: border-box;
+    background: white;
+    float: left;
+    
+}
+.menu1 .leftarea .btn1 input:hover
+{
+    cursor: pointer;
+}
+.menu1 .leftarea .btn2 input
+{
+    margin-top: 50px;
+    padding: 30px;
+    width: 450px;
+    font-size: 25px;
+    box-sizing: border-box;
+    background: white;
+      float: left;
+    
+}
+.menu1 .leftarea .btn2 input:hover
+{
+    cursor: pointer;
+}
+.menu1 .leftarea .btn3 input
+{
+    margin-top: 50px;
+    padding: 30px;
+    width: 450px;
+    font-size: 25px;
+    box-sizing: border-box;
+    background: white;
+      float: left;
+    
+}
+.menu1 .leftarea .btn3 input:hover
+{
+    cursor: pointer;
+}
+.menu1 .leftarea .btn4 input
+{
+    margin-top: 50px;
+    padding: 30px;
+    width: 450px;
+    font-size: 25px;
+    box-sizing: border-box;
+    background: white;
+    float: left;
+    
+}
+.menu1 .leftarea .btn4 input:hover
+{
+    cursor: pointer;
+}
+.hh
+{
+    margin-top: 100px;
+}
+
+#btn111{
+    display: none;
+    justify-content: center;
+    margin-right: 180px;
+}
+
+.container{
+    border: 1px solid red;
+    
+}
+.coutbtn{
+    margin: 10px 10px;
+    background: #D70F64;
+    border: red;
+} 

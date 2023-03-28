@@ -1,0 +1,187 @@
+.body
+{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.hheader
+{
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    background: #FFFFFF;
+    top: 0;
+}
+.db img
+{
+    background: red;
+    width:35px;
+    height:35px;
+    float: left;
+    margin: 0px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.hheader .service-name .fds h2
+{
+    font-size:20px;
+    margin-top:0px;
+    padding: 10px;
+    font-weight: 300;
+    color:#D70F64;
+    float: left;
+}
+.left-area
+{
+    width: 80%;
+    float:  left;
+}
+.right-area
+{
+    width: 20%;
+    float:  left;
+}
+.hheader .service-name .login h2
+{
+    float: left;
+}
+.middle-area
+{
+    margin: auto;
+    overflow: hidden;
+  
+}
+.middle-area .delivery
+{
+    width: 70%;
+    
+    
+}
+.middle-area .delivery::after
+{
+    content: '';
+    clear: both;
+    display: block;
+    
+}
+.middle-area .hfood img
+{
+    width: 30%;
+}
+.delivery h3
+{
+    margin-left: 0;
+    margin-top: 170px;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 400px;
+}
+.middle-area .hfood img
+{
+    float: right;
+}
+.middle-area .delivery input[type="text"]
+{
+    float: left;
+    margin-top: 250px;
+    margin-left: -399px;
+    width: 470px;
+    height: 50px;
+    font-size: 15px;
+    padding: 7px 10px;
+    margin-right: 13px;
+}
+.middle-area .delivery  h6
+{
+    float: left;
+    margin-top: 276px;
+    font-size: 18px;
+}
+.btn1 input 
+{
+    background: #D70F64;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600px;
+    min-width: 115px;
+    float: left;
+    padding: 23px 100px;
+    text-align: center;
+    margin-top: 250px;
+    margin-right: 5px;
+    
+}
+.btn2 input
+{
+    background: #D70F64;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600px;
+    min-width: 115px;
+    float: left;
+    padding: 23px 16px;
+    text-align: center;
+    margin-top: 250px;margin-left: 5px;
+    
+}
+
+.btn1 input,.btn2 input:hover
+{
+    cursor: pointer;
+}
+.hfood img
+{
+    margin-top: -250px;
+    width: 400px;
+    
+}
+.shop h3
+{
+    margin-left: 100px;
+    margin-top: 200px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.6rem;
+}
+.shop .row1
+{
+    
+    margin: auto;
+    height: 900px;
+}
+.shop ul li img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.pic1
+{
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+.shop .pic1 a img
+{
+    width: 400px;
+    height:200px;
+}
+.shop ul 
+{
+    list-style-type: none;
+}
+.shop  .name h3
+{
+    margin-top: 0px;
+    font-size: 20px;
+}

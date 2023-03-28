@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dhaka Garden Inn delivery in Dhaka</title>
+    <link rel="stylesheet" href="Menulistonestyle%20.css">
+    <link rel="stylesheet" href="./css/cartstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+     <img src="assest/dhakashopone%20.jpg" alt="Dhaka Garden Inn">
+      
+         <h3>Dhaka Garden Inn </h3>
+  </header>
+   <div class="menu1">
+    <div class="totalarea">
+     <div class="leftarea">
+        <h3>Popular</h3>
+        <h6>Most ordered right now</h6>
+        <forms>
+        <div onclick="itemClick()" id="btn11" class="btn1"><input type="submit" value="Chicken Pakora (8pcs) Tk 247 "></div>
+            <div id="btn22" class="btn2"><input type="submit" value="Paneer Pakora (8pcs) Tk 242 "></div>
+             <div id="btn33" class="btn3"><input type="submit" value="Vegetable Pakora (8pcs) Tk 183 "></div>
+            <div id="btn44" class="btn4"><input type="submit" value="Chicken Biryani Tk 353 "></div>
+       </form>
+       </div> 
+       <div class="rightarea">
+           <div id="btn111">
+               <div class="container">
+                   <h5><b>Item  :</b></h5> Chicken Pakora
+                   <br>
+                   <button  id="item-decrease" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="item-count" type="text" class="form-control text-center" value="1">
+                           <button id="item-increase" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                   <br><b>Price :</b> <strong id="item-price">247 tk</strong>
+                   <br><button id="coutbtn" class="coutbtn">Check Out!</button>
+               </div>
+           </div>
+
+
+       </div>
+       </div>
+   </div>
+   <hr class="hh">
+   <div class="copy">
+        &copy;2021 food delivery service
+    </div>
+    <script>
+        function itemClick(){
+            document.getElementById('btn111').style.display = 'block'
+        }
+        
+         document.getElementById('item-increase').addEventListener('click', function(){
+    handleProductChange('item',true);
+ })
+        document.getElementById('item-decrease').addEventListener('click', function(){
+    handleProductChange('item',false);
+ })
+        function handleProductChange(product, isIncrease){
+    const productInput=document.getElementById(product+'-count');
+    const productCount=parseInt(productInput.value);
+    let productNewCount=productCount;
+    if(isIncrease==true){
+       productNewCount=productCount+1;
+    }
+    if(isIncrease==false && productCount>0){
+       productNewCount=productCount-1;
+    }
+    productInput.value=productNewCount;
+    // const caseTotal=caseNewCount*59;
+    let productTotal=productNewCount;
+    if(product=='item'){
+       productTotal=productNewCount*247;
+    }
+    
+    
+        document.getElementById(product+'-price').innerText=  productTotal;
+    }
+        
+        document.getElementById('coutbtn').addEventListener('click', function(){
+            alert('Check Out Successful!');
+        })
+ 
+
+    </script>
+    
+</body>
+</html>
